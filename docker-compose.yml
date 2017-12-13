@@ -1,0 +1,9 @@
+version: '3'
+services:
+  eth:
+    build: .
+    container_name: eth
+    ports:
+     - "8545:8545"
+
+# docker-compose rm -f && docker-compose up -d --build     
